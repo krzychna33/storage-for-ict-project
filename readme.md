@@ -1,6 +1,6 @@
 # Storage for ICT proj.
 
-## Running it locally
+## Running it locally using docker
 
 in `conf` dir:
 
