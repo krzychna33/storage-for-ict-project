@@ -1,0 +1,10 @@
+# MinIO connection details
+minio_server = "localhost:9000"
+minio_user = "minioadmin"
+minio_password = "minioadmin"  # Replace with your actual secure password
+minio_ssl = false
+
+# User passwords
+administrator_password = "admin_secure_password123"  # Replace with a secure password
+viewer_password = "viewer_secure_password123"        # Replace with a secure password
+uploader_password = "uploader_secure_password123"    # Replace with a secure password
