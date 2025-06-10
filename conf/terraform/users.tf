@@ -64,7 +64,8 @@ resource "minio_iam_policy" "UploaderPolicy" {
     Statement = [
       {
         Effect   = "Allow",
-        Action   = ["s3:ListBucket"],
+        Action   = ["s3:ListBucket",
+                     "s3:GetBucketLocation"],
         Resource = ["arn:aws:s3:::raw-data"]
       },
       {

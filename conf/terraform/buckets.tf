@@ -11,4 +11,5 @@ resource "minio_s3_bucket_versioning" "raw_versioning" {
   versioning_configuration {
     status = "Enabled"
   }
+  depends_on = [minio_s3_bucket.raw]
 }
