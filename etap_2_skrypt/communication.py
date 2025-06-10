@@ -46,8 +46,8 @@ def recvall(sock, n):
 def upload_to_minio(file_path: str) -> bool:
     client = Minio(
         "127.0.0.1:9000",        # dopasuj host/port
-        access_key="minioadmin", # dopasuj do terraform.tfvars
-        secret_key="minioadmin",
+        access_key="uploader", # dopasuj do terraform.tfvars
+        secret_key="uploader_secure_password123",
         secure=False
     )
     bucket = "raw-data"
