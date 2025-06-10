@@ -1,2 +1,3 @@
 .venv
 received_random_data.bin
+__pycache__
